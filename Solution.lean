@@ -1,4 +1,4 @@
-import PalomarTemplate
+import Erdos123Plus
 
 /-!
 # Proved solution
@@ -8,6 +8,6 @@ declaration below has exactly the same statement as its counterpart in
 `Challenge.lean` and uses only the permitted axioms.
 -/
 
-theorem PalomarTemplate.main_result (n : ℕ) : n + n = 2 * n := by
+theorem Erdos123Plus.main_result (n : ℕ) : n + n = 2 * n := by
   exact add_self_eq_two_mul n
 
